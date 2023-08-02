@@ -1,4 +1,4 @@
-## Copyright 2021, KGOMOTSO(TROOS)
+## Copyright 2023, KGOMOTSO(TROOS)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this ***Curriculum-Tracker*** and associated documentation files, to deal in the ***Curriculum-Tracker*** without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the ***Curriculum-Tracker***, and to permit persons to whom the ***Curriculum-Tracker*** is furnished to do so, subject to the following conditions:
 

@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Curriculum-Tracker</b></h3>
+  <h3><b>REACT CAPSTONE</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -27,7 +27,7 @@
 
 # 📖 Curriculum-Tracker <a name="about-project"></a>
 
-**Curriculum-Tracker** is a web application where students can efficiently track their academic journey, including grades, assignments, courses, and overall performance. The intuitive interface offers an interactive dashboard that provides a comprehensive overview of their progress in real-time.
+**Curriculum-Tracker** is a web application built using the React JavaScript library that allows users to explore information about various cryptocurrencies. The project leverages React's component-based architecture to create a dynamic and interactive user interface.
 
 ## 🛠 Built With <a name="built-with"></a>
 

@@ -1,26 +1,26 @@
-import React from 'react';
-import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Profile from './components/Profile';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import store from './redux/store';
+import Home from './pages/Home';
+import GlobalStyles from './styles/GlobalStyles';
+import CryptoDetails from './pages/Detail';
 
 function App() {
   return (
-    <Provider store={store}>
-      <Router>
-        {}
-        <>
+    <Router>
+      <div className="App">
+        <GlobalStyles />
+        <div>
           <NavBar />
-          <main>
-            <Routes>
-              <Route path="/" element={<Profile />} />
-            </Routes>
-          </main>
-        </>
-      </Router>
-    </Provider>
+        </div>
+        <section className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/:id" element={<CryptoDetails />} />
+          </Routes>
+        </section>
+      </div>
+    </Router>
   );
 }
 

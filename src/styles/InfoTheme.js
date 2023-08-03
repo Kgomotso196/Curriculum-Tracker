@@ -32,7 +32,7 @@ export const Container = styled.div`
 export const DataSleeve = styled.div`
   .details:nth-child(odd) {
     color: #fff;
-    background-color: navy;
+    background-color: #6C004A;
   }
 `;
 

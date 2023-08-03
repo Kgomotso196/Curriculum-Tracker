@@ -57,7 +57,7 @@ export const CryptoItem = styled.div`
   padding: 1.3rem;
   width: 250px;
   border-radius: 20px;
-  background-color: navy;
+  background-color: #6C004A;
   font-size: 1.1rem;
 
   .see-more {
@@ -95,7 +95,7 @@ export const Button = styled.div`
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
-  color: navy;
+  color: #6C004A;
   margin: 1rem 0;
   text-decoration: none;
 `;

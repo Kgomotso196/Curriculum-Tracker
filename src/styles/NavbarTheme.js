@@ -6,7 +6,7 @@ const NavContainer = styled.div`
   align-items: center;
   padding: 1rem 2rem;
   background-color: #1b1c1c ;
-  color: navy;
+  color: #6C004A;
 
   .notification{
     display: flex;

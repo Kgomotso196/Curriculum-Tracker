@@ -6,7 +6,6 @@ import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import CryptoCoins from '../pages/Layout';
 
-// Mock the Redux store
 const mockStore = configureStore([]);
 const initialState = {
   cryptoCurrency: {
@@ -18,9 +17,7 @@ const initialState = {
         symbol: 'BTC',
         rank: 1,
         price: 45000,
-        // Add more cryptocurrency data as needed
       },
-      // Add more cryptocurrencies as needed
     ],
   },
 };
@@ -45,7 +42,6 @@ describe('CryptoCoins component', () => {
       </Provider>,
     );
 
-    // Check if cryptocurrency data is rendered correctly
     const btcName = getByText('Bitcoin');
     expect(btcName).toBeInTheDocument();
 
@@ -55,14 +51,9 @@ describe('CryptoCoins component', () => {
     const btcPrice = getByText('$45000.00');
     expect(btcPrice).toBeInTheDocument();
 
-    // Add more checks for other cryptocurrency data as needed
-
-    // Check if cryptocurrency icon is rendered correctly
     const btcIcon = getByAltText('Icon');
     expect(btcIcon).toBeInTheDocument();
-    expect(btcIcon).toHaveAttribute('src', 'bitcoin-icon-url'); // Replace with the actual icon URL
-
-    // Check if search box is rendered correctly
+    expect(btcIcon).toHaveAttribute('src', 'bitcoin-icon-url');
     const searchBox = getByRole('textbox');
     expect(searchBox).toBeInTheDocument();
     expect(searchBox).toHaveAttribute('placeholder', 'Enter Name');
@@ -74,19 +65,11 @@ describe('CryptoCoins component', () => {
         <CryptoCoins />
       </Provider>,
     );
-
-    // Check initial rendering with all cryptocurrencies
     expect(getByText('Bitcoin')).toBeInTheDocument();
     expect(getByText('Ethereum')).toBeInTheDocument();
-    // Add more checks for other cryptocurrencies as needed
-
-    // Search for 'Bit' (partial name of Bitcoin)
     const searchBox = getByRole('textbox');
     fireEvent.change(searchBox, { target: { value: 'Bit' } });
-
-    // Check if only Bitcoin is rendered in the list
     expect(getByText('Bitcoin')).toBeInTheDocument();
     expect(screen.queryByText('Ethereum')).not.toBeInTheDocument();
-    // Add more checks for other filtered cryptocurrencies as needed
   });
 });

@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--  [Live link]()
+-  [Live link](https://curriculum-tracker-troos.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

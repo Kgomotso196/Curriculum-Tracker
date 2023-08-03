@@ -99,8 +99,7 @@ Install this project with:
 ### Run tests
 
 To run tests, run the following command:
-- npx hint .
-- npx stylelint "\*_/_.{css,scss}"
+- `npm run test`
 
 ### Deployment
 
@@ -146,6 +145,8 @@ If you enjoy this project, I kindly request you to give it a star and consider f
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to express my heartfelt gratitude to Microverse for providing me with this incredible project opportunity.
+
+Sending another heartfelt gratitude to [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for their awesome design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
